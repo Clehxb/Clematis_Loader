@@ -1,5 +1,6 @@
+local repo = "https://raw.githubusercontent.com/Clehxb/Clematis_Loader/main/"
 if GETGENV().DoIntro then
-    spawn(loadstring(game:HttpGet("https://raw.githubusercontent.com/Clehxb/Clematis_Loader/main/Withintro"))())
+    spawn(loadstring(game:HttpGet(repo .. "Withintro"))())
 else
-    spawn(loadstring(game:HttpGet("https://raw.githubusercontent.com/Clehxb/Clematis_Loader/main/NoIntro"))())
+    spawn(loadstring(game:HttpGet(repo .. "NoIntro"))())
 end
