@@ -1,4 +1,4 @@
-if _G.intro then
+if GETGENV().DoIntro then
     spawn(loadstring(game:HttpGet("https://raw.githubusercontent.com/Clehxb/Clematis_Loader/main/Withintro"))())
 else
     spawn(loadstring(game:HttpGet("https://raw.githubusercontent.com/Clehxb/Clematis_Loader/main/NoIntro"))())
